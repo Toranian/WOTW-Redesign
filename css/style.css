@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+.background {
+    background-image: url("../img/Extras/words_on_water.jpg");
+    position: fixed;
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+
+.navbar-list {
+    background-image: linear-gradient(45deg, #16193a, #738089);
+    padding: 15px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    float: left;
+}
+
+#nav-element-first {
+    display: inline;
+    padding: 15px;
+    background-color: aqua;
+    /* float: left; */
+    margin: 0;
+}
+
+.nav-element {
+    display: inline;
+    padding: 15px;
+    background-color: white;
+    /* float: left; */
+    margin: 0;
+}
+
+
+.main {
+    background-color: white;
+    margin: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
